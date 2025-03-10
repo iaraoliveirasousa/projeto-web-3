@@ -17,9 +17,7 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-body {
-    background-color: aquamarine;
-}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -40,6 +38,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 /* Layout principal */
 main {
     display: flex;
@@ -54,6 +53,7 @@ main {
     border-right: 3px solid #0c0000; 
     min-height: 100vh; 
 }
+
 /* Caixa de pesquisa */
 .caixa-pesquisa {
     margin-bottom: 30px;
@@ -101,4 +101,102 @@ main {
 
 .categorias ul li {
     margin: 10px 0;
+}
+
+.categorias ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.categorias ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Área de Receitas */
+.receitas {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.receitas img {
+    width: 250px; 
+    height: auto; 
+}
+
+/* Cartões de Receita */
+.cartao-receita {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 250px; 
+}
+
+.cartao-receita img {
+    width: 80%; 
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+}
+
+.cartao-receita h3 {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+.cartao-receita p {
+    font-size: 14px; 
+    color: #666;
+}
+
+.cartao-receita .btn {
+    display: inline-block;
+    padding: 8px 16px; 
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cartao-receita .btn:hover {
+    background-color: #444;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+/* CONTATO CAMPO */
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.campo label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.campo textarea {
+    resize: none;
+    height: 120px;
 }
