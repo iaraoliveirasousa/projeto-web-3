@@ -8,10 +8,10 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Iara de Oliveira Sousa
+- Matricula: 888235
+- Proposta de projeto escolhida: Diretório de Receitas
+- Breve descrição sobre seu projeto: 
 
 
 ## Print do esboço criada
