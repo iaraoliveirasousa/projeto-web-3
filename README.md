@@ -11,14 +11,14 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Nome: Iara de Oliveira Sousa
 - Matricula: 888235
 - Proposta de projeto escolhida: Diretório de Receitas
-- Breve descrição sobre seu projeto: 
+- Breve descrição sobre seu projeto: Será um site simples com foco em culinária brasileira.
 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](esboço.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Print Site.png>)
