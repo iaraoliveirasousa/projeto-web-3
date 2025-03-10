@@ -40,3 +40,17 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+/* Layout principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Barra Lateral */
+.barra-lateral {
+    width: 250px;
+    padding: 20px;
+    background-color: #07f7e7; 
+    border-right: 3px solid #0c0000; 
+    min-height: 100vh; 
+}
