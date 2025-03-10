@@ -54,3 +54,51 @@ main {
     border-right: 3px solid #0c0000; 
     min-height: 100vh; 
 }
+/* Caixa de pesquisa */
+.caixa-pesquisa {
+    margin-bottom: 30px;
+}
+
+.caixa-pesquisa label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.caixa-pesquisa input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.caixa-pesquisa button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.caixa-pesquisa button:hover {
+    background-color: #444;
+}
+
+/* Categorias */
+.categorias h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.categorias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categorias ul li {
+    margin: 10px 0;
+}
