@@ -9,3 +9,50 @@
     <title>Categorias de Receitas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Página Inicial">Início</a></li>
+                <li><a href="sobre.html" title="Sobre Mim">Sobre Mim</a></li>
+                <li><a href="contato.html" title="Página de Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="barra-lateral">
+            <div class="caixa-pesquisa">
+                <label for="search">Pesquisar Receitas</label>
+                <input type="text" id="search" placeholder="Pesquisa" aria-label="Campo de pesquisa para receitas">
+                <button type="submit" aria-label="Botão para buscar receitas">Buscar</button>
+            </div>
+
+            <div class="categorias">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#" title="Veja todas as receitas doces">Doces</a></li>
+                    <li><a href="#" title="Veja todas as receitas salgadas">Salgados</a></li>
+                    <li><a href="#" title="Veja todos os pratos principais">Pratos Principais</a></li>
+                    <li><a href="#" title="Veja todas as sobremesas">Sobremesas</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="receitas">
+            <h2>Receitas Recentes</h2>
+            <div class="cartao-receita">
+                <img src="frango.png" alt="Imagem ilustrativa de receita">
+                <h3>Frango com Quiabo</h3>
+                <p>Frango com Quiabo é um prato típico da culinária brasileira, preparado com pedaços de frango cozidos junto a quiabo, cebola, alho, tomate e temperos como pimentão e cominho. O prato é cozido até o frango ficar macio e o quiabo bem dourado, resultando em um saboroso e suculento ensopado. Ideal para ser servido com arroz e feijão.</p>
+                <a href="detalhes.html" class="btn" title="Ver detalhes desta receita">Ver Detalhes</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Receitas Culinárias | Todos os direitos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
